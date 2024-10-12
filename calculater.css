@@ -10,9 +10,11 @@
     background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
   }
   body{
-    background-image: url(perfect2.jpg);
-    background-repeat: no-repeat;
-    
+    background-image: url(perfect2.jpg) ;
+    background-repeat: no-repeat; /* Image ko repeat nahi karna */
+    background-size: cover; /* Image ko container ko cover karne ke liye scale karna */
+    background-position: center; /* Image ko center par rakhna */
+   
    
     
   }
